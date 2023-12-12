@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+body {
+	font-family: 'Montserrat', 'Open Sans', sans-serif;
+	margin: 0;
+}
+
+header {
+	background-color: black;
+	height: 60px;
+}
+
+@media only screen and (max-width: 722px) {
+	header {
+		height: 100px;
+	}
+  }
+
+ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+li {
+	display: inline;
+	padding: 14px 14px;
+	font-size: 15px;
+}
+
+
+li img[alt="BreadTalk logo"] {
+	margin: 10px 0px 0px 0px;
+}
+
+li img[alt="order"] {
+	position: relative;
+	bottom: 0px;
+}
+
+.head {
+	background-color: hotpink;
+	height: 400px;
+	background-image: url("https://images.unsplash.com/photo-1568254183919-78a4f43a2877?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80");
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.content {
+	background-color: #fff;
+	text-align: center;
+}
+
+.text p {
+	font-size: 15px;
+	font-weight: bold;
+	color: orange;
+	border-bottom: 2px solid orange;
+	line-height: 0.1em;
+	margin: 20px 190px;
+}
+
+.text p span { 
+  background: #fff; 
+  padding:0 10px; 
+}
+
+.text h2 {
+	font-weight: bold;
+	font-size: 38px;
+	color: black;
+	margin: 0px 100px;
+}
+
+.img {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex_item {
+	background-color: pink;
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	flex-wrap: wrap;
+	margin-bottom: 25px;
+	height: 400px;
+}
+
+.desc {
+	margin: 20px;
+	position: relative;
+	float: left;
+	top: 250px;
+	margin-left: 40px;
+}
+
+.desc h1 {
+	color: white;
+	font-size: 35px;
+
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+.desc p {
+	color: orange;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.bread {
+	background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.5)) , url("https://images.unsplash.com/photo-1608198093002-ad4e005484ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80");
+}
+
+.cookies {
+	background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.5)) , url("https://images.unsplash.com/photo-1584847801423-852691e41bc7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+}
+
+.danish {
+	background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.5)) , url("https://images.unsplash.com/photo-1567891026259-c133718572a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+}
+
+.dry-cake {
+	background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.5)) , url("https://images.unsplash.com/photo-1596872907520-07fa00b9aa68?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+}
+
+.hampers {
+	background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.5)) , url("https://images.unsplash.com/photo-1610377507996-dcd4f0cfc125?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+}
+
+.slice-cake {
+	background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.5)) , url("https://images.unsplash.com/photo-1616031080143-69b59cbfa2e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=854&q=80");
+}
+
+.whole-cake {
+	background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.5)) , url("https://images.unsplash.com/photo-1519340333755-56e9c1d04579?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+}
+
+footer {
+	background-color: black;
+	height: 300px;
+	padding: 50px;
+  left: 0;
+  bottom: 0;
+}
+
+.footer_container {
+	color: white;
+	display: flex;
+	justify-content: left;
+	flex-wrap: wrap;
+}
+
+.footer_heading {
+	margin-right: 90px;
+	display: flex;
+	flex-direction: column;
+}
+
+.footer_heading img {
+	margin-bottom: 20px;
+}
+
+.footer_heading h2 {
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.footer_heading p {
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+.footer_heading a {
+	color: gray;
+	text-decoration: none;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.icon {
+	display: flex;
+	justify-content: left;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin-top: 50px;
+
+}
+
+.icon img {
+	height: 32px;
+	width: 32px;
+	margin-right: 20px;
+}
+
